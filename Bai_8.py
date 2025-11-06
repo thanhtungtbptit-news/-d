@@ -1,0 +1,5 @@
+numb=input("Nhập danh sách số nguyên cách nhau bởi dấu cách: ").split()
+total=sum(map(int, numb))
+print("Tổng: ",total )
+print("Trung bình : ", total/len(numb) )
+print("Số lớn nhất: ", max(map(int, numb)) )
